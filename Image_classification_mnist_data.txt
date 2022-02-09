@@ -1,0 +1,25 @@
+image -> array -> neural network ->  classify
+
+read image -> opencv
+array -> numpy
+neural network & classify -> tensorflow, keras
+
+Image classification:
+
+dataset
+visulize
+preprocess -> noise removal,resizing,rescaling
+normalize -> 0 to 1
+train & test
+model create -> CNN
+train & classify
+evaluate metrices -> confusion matrix
+
+
+### categorical
+
+[0,1,2,3,4,5,6,7,8,9]
+0 - [1,0,0,0,0,0,0,0,0]
+1 - [0,1,0,0,0,0,,0,0,0]
+2 - [0,0,1,0,0,0,0,0]
+4 - [0,0,0,0,1,0,0,0,0,0]
